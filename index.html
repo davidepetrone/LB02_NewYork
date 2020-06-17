@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title> New York City </title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="icon" type="image/png" href="bilder/favicon.png" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<!-- Logo -->
+		<a href="index.html"> <img src="bilder/ILNY.jpg" alt="I Love NYC" width="100" height="100"></a>
+
+		<!-- Main Navigation -->
+		<nav id="mainNav">
+			<ul>
+				<li> <a href="sehenswürdigkeiten.html">Sehenswürdigkeiten </a> </li>
+				<li> <a href="eigeneerfahrungen.html">Eigene Erfahrungen </a> </li>
+				<li> <a href="index.html">Home </a> </li>
+			</ul>
+		</nav>
+
+		<!-- Hamburger Icon, &#9776; stellt den Hamburger (☰) dar, ist im CSS mit "display:none" ausgeblendet  -->
+		<div id="hamburgerIcon" onclick="openNav()">&#9776;</div>
+
+		<!-- Hamburger Navigation mit einem Close-Button (x), ist im CSS mit "width:0" ausgeblendet  -->
+		<nav id="hamburgerNav">
+			<a class="closebtn" onclick="closeNav()" href="#">&times;</a> <!--  &times; stellt das X dar -->
+			<ul>
+				<li><a href="sehenswürdigkeiten.html">Sehenswürdigkeiten</a></li>
+				<li><a href="eigeneerfahrungen.html">Eigene Erfahrungen </a></li>
+				<li> <a href="index.html">Home </a> </li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+		<h1>New York City</h1>
+		<h3>The City that never sleeps.</h3>
+
+	</main>
+
+	<footer>
+		Leistungsbeurteilung 02, Modul 287; ME19c <br>
+		Probst Noemi, Petrone Davide
+	</footer>
+
+
+	<!-- Java Script Funktion. 
+		Die Funktion "openNav()" wird ausgeführt, wenn man auf den Hamburger (☰) klickt, die Funktion verändert die Breite von der id "#hamburgernav" im CSS auf 100%.
+		Die Funktion "closeNav()" wird ausgeführt, wenn man auf das Close-Icon (x) klickt, die Funktion verändert die Breite von der id "#hamburgernav" im CSS auf 0%.
+	-->
+	<script>
+		function openNav() {
+			document.getElementById("hamburgerNav").style.width = "100%";
+		}
+
+		function closeNav() {
+			document.getElementById("hamburgerNav").style.width = "0%";
+		}
+	</script>
+</body>
+
+</html>
