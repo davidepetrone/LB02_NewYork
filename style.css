@@ -53,8 +53,6 @@ header>a {
   color: brown;
 }
 
-
-
 /* Hamburger Icon */
 #hamburgerIcon {
   display: none;
@@ -155,7 +153,7 @@ main article p {
   width: 400px;
   margin: 20px;
   padding: 20px;
-  background-color: brown;
+  background-color: black;
   text-align: justify;
 }
 
@@ -178,7 +176,19 @@ footer {
   }
 }
 
+/*Start
+Styling der Seite "Geschichte"*/
 
+/*Quellenangabe auf der Seite "Geschichte" */
+a.quelle{
+  color: brown;
+}
+
+article.entstehung{
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 
 
