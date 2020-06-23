@@ -26,7 +26,7 @@ header {
   align-items: center;
   height: 15vh;
   padding: 10px 60px;
-  background-color: black;
+  background-color: rgb(27, 24, 24);
 }
 
 header>a {
@@ -123,7 +123,7 @@ main article {
   width: 350px;
   margin: 20px;
   padding: 20px;
-  background-color: black;
+  background-color: rgb(27, 24, 24);
 }
 
 main article h2 {
@@ -153,14 +153,19 @@ main article p {
   width: 400px;
   margin: 20px;
   padding: 20px;
-  background-color: black;
+  background-color: rgb(27, 24, 24);
   text-align: justify;
+
+}
+
+main video {
+  width: 800px;
 }
 
 /* Footer-Container */
 footer {
   padding: 20px;
-  background-color: #000;
+  background-color: rgb(27, 24, 24);
 }
 
 
@@ -180,16 +185,19 @@ footer {
 Styling der Seite "Geschichte"*/
 
 /*Quellenangabe auf der Seite "Geschichte" */
-a.quelle{
+a.quelle {
   color: brown;
 }
 
-article.entstehung{
+article.entstehung {
   padding: 20px;
   margin-left: 100px;
   margin-right: 100px;
+  width: 800px;
 }
 
+/*Ende
+Styling der Seite "Geschichte"*/
 
 
 /* Start 
@@ -205,7 +213,7 @@ Styling für die Bilder auf der Seite von World Trade Center */
   /* Bilder in Vollansicht daneben */
   overflow: auto;
   /* Scrollbalken bei Bedarf */
-  background-color: black;
+  background-color: rgb(27, 24, 24);
 }
 
 #thumnail li {
@@ -217,7 +225,7 @@ Styling für die Bilder auf der Seite von World Trade Center */
   display: block;
   color: white;
   /* Für Alternativtext */
-  background-color: black;
+  background-color: rgb(27, 24, 24);
   width: 188px;
   padding: 6px;
   text-align: center;
@@ -242,7 +250,7 @@ Styling für die Bilder auf der Seite von World Trade Center */
   /* Anzeigehöhe des Bildes */
   overflow: hidden;
   /* Nur ein Bild anzeigen */
-  background-color: black;
+  background-color: rgb(27, 24, 24);
 }
 
 #fullframe li {
@@ -316,7 +324,7 @@ Styling für die Bilder auf der Seite von World Trade Center */
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: black;
+  background-color: rgb(27, 24, 24);
 }
 
 
@@ -325,7 +333,7 @@ Styling für die Bilder auf der Seite von World Trade Center */
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: black;
+  background-color: rgb(27, 24, 24);
   padding: 2px 16px;
   color: white;
 }
