@@ -124,6 +124,7 @@ main article {
   margin: 20px;
   padding: 20px;
   background-color: rgb(27, 24, 24);
+  border-radius: 18px;
 }
 
 main article h2 {
@@ -158,8 +159,18 @@ main article p {
 
 }
 
+.home{
+  width: 75%;
+  background-color: transparent;
+}
+
+.home p {
+  text-align: center;
+}
+
 main video {
   width: 800px;
+  text-align: center;
 }
 
 /* Footer-Container */
@@ -272,8 +283,21 @@ Styling für die Bilder auf der Seite von World Trade Center */
 /* Ende
  Styling für die Bilder auf der Seite von World Trade Center */
 
+/* Start
+ Styling der verschiedenen Seiten unter eigene Erfahrung*/
 
+.group{
+  text-decoration: none;
+  color: white;
+}
 
+.group:hover{
+  text-decoration: none;
+  color: white;
+}
+
+/* Ende
+ Styling der verschiedenen Seiten unter eigene Erfahrung*/
 
 /* Start
  Styling Diashow-Gallerie */

@@ -5,9 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> New York City </title>
+    <!-- Link zum CSS-Framework Bootstrap-->
+	<link rel="stylesheet" href="bootstrap.css" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" type="image/png" href="bilder/favicon.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
 </head>
 
 <body>
@@ -47,12 +49,61 @@
         </h3>
         <br>
         <section>
-            <article>
-                <h2>World Trade Center</h2>
-                <a href="worldtradecenter.html" target="_self"> <img src="bilder/wordltradecenter.JPEG" alt="news"
-                        width="380px" height="220px"> </a>
-                <p>Das neu erbaute World Trade Center ist ein faszinierendes, herausragendes Gebäude im südlichsten Teil
-                    der Insel Manhattan... </p>
+            <div class="card" style="width: 18rem;">
+                <img src="bilder/wordltradecenter.JPEG" class="card-img-top" alt="worldtradecenter">
+                <div class="card-body">
+                  <h5 class="card-title">World Trade Center</h5>
+                  <p class="card-text">Das neu erbaute World Trade Center ist ein faszinierendes, herausragendes Gebäude im südlichsten Teil
+                    der Insel Manhattan...</p>
+                  <a href="worldtradecenter.html" class="btn btn-primary">Mehr lesen</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="bilder/empirestate.JPEG" class="card-img-top" alt="empirestatebuilding">
+                <div class="card-body">
+                  <h5 class="card-title">Empire State Building</h5>
+                  <p class="card-text">Auf meiner Reise durch New York City liess ich mir einen Besuch beim Empire State Building natürlich
+                    nicht entgehen...</p>
+                  <a href="empirestatebuilding.html" class="btn btn-primary">Mehr lesen</a>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="bilder/bb2.JPEG" class="card-img-top" alt="brooklybrige">
+                <div class="card-body">
+                  <h5 class="card-title">Brooklyn Bridge</h5>
+                  <p class="card-text">An dem Tag als ich die Brooklyn Bridge besuchte stand mir viel Zeit zur Verfügung. Nach einem
+                    wunderbaren Rundgang im südlichen Stadtteil...</p>
+                  <a href="brooklynbridge.html" class="btn btn-primary">Mehr lesen</a>
+                </div>
+            </div>
+           
+            <div class="card" style="width: 18rem;">
+                <img src="bilder/fs.JPEG" class="card-img-top" alt="freiheitsstatue">
+                <div class="card-body">
+                  <h5 class="card-title">Freiheitsstatue</h5>
+                  <p class="card-text">Wenn man von New York spricht und über alle Sehenswürdigkeiten schwärmt darf man natürlich die
+                    Freiheitsstatue nicht vergessen...</p>
+                  <a href="freiheitsstatue.html" class="btn btn-primary">Mehr lesen</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="bilder/policecar.JPEG" class="card-img-top" alt="policecar">
+                <div class="card-body">
+                  <h5 class="card-title">Police</h5>
+                  <p class="card-text">Was mich auch absolut fasziniert hat, war die Polizei in New York...</p>
+                  <a href="police.html" class="btn btn-primary">Mehr lesen</a>
+                </div>
+            </div>
+
+             <!-- <article>
+                <h2>Brooklyn Bridge</h2>
+                <a href="brooklynbridge.html" target="_self"> <img src="bilder/bb2.JPEG" alt="news" width="380px"
+                        height="220px"> </a>
+                <p>An dem Tag als ich die Brooklyn Bridge besuchte stand mir viel Zeit zur Verfügung. Nach einem
+                    wunderbaren Rundgang im südlichen Stadtteil...
             </article>
             <article>
                 <h2>Empire State Building</h2>
@@ -62,26 +113,18 @@
                     nicht entgehen...</p>
             </article>
             <article>
-                <h2>Brooklyn Bridge</h2>
-                <a href="brooklynbridge.html" target="_self"> <img src="bilder/bb2.JPEG" alt="news" width="380px"
-                        height="220px"> </a>
-                <p>An dem Tag als ich die Brooklyn Bridge besuchte stand mir viel Zeit zur Verfügung. Nach einem
-                    wunderbaren Rundgang im südlichen Stadtteil...
-            </article>
-            <article>
                 <h2>Freiheitsstatue</h2>
                 <a href="freiheitsstatue.html" target="_self"> <img src="bilder/fs.JPEG" alt="news" width="400px"
                         height="235px"> </a>
                 <p> Wenn man von New York spricht und über alle Sehenswürdigkeiten schwärmt darf man natürlich die
                     Freiheitsstatue nicht vergessen...</p>
             </article>
-
             <article>
                 <h2>Police</h2>
                 <a href="police.html" target="_self"> <img src="bilder/policecar.JPEG" alt="news" width="400px"
                         height="235px"> </a>
                 <p> Was mich auch absolut fasziniert hat, war die Polizei in New York... </p>
-            </article>
+            </article>-->
         </section>
     </main>
 
