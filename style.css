@@ -14,7 +14,7 @@ body {
 }
 
 main h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   /* Vorher war es: 'Times New Roman', Times, serif; */
 }
 
@@ -117,6 +117,7 @@ main h1 {
   font-size: 3em;
   margin: 50px 0;
   text-transform: uppercase;
+
 }
 
 main article {
@@ -159,7 +160,7 @@ main article p {
 
 }
 
-.home{
+.home {
   width: 75%;
   background-color: transparent;
 }
@@ -286,12 +287,12 @@ Styling für die Bilder auf der Seite von World Trade Center */
 /* Start
  Styling der verschiedenen Seiten unter eigene Erfahrung*/
 
-.group{
+.group {
   text-decoration: none;
   color: white;
 }
 
-.group:hover{
+.group:hover {
   text-decoration: none;
   color: white;
 }
@@ -299,9 +300,14 @@ Styling für die Bilder auf der Seite von World Trade Center */
 /* Ende
  Styling der verschiedenen Seiten unter eigene Erfahrung*/
 
+
+
+
 /* Start
  Styling Diashow-Gallerie */
 
+
+/* Anpassung 3 Bildergalerie */
 .buttons {
   display: flex;
 }
@@ -382,7 +388,7 @@ Styling für die Bilder auf der Seite von World Trade Center */
   float: left;
 }
 
-/* Add a transparency effect for thumnbail images */
+/* Anpassung 2 Bildergalerie */
 .demo {
 
   filter: grayscale(100%);
